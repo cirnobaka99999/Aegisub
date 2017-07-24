@@ -26,8 +26,8 @@
 	ignore = dirty
 [submodule "libass"]
 	path = vendor/libass
-	url = git://github.com/libass/libass.git
-	branch = master
+	url = git://github.com/cirnobaka99999/libass.git
+	branch = cirno_aegisub
 [submodule "icu"]
 	path = vendor/icu
 	url = git://github.com/svn2github/icu4c.git
