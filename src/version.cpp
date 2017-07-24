@@ -47,9 +47,11 @@
 	#define BUILD_CREDIT_SUFFIX ""
 #endif
 
+#define CIRNO_BAKA_EDITION " Cirno Baka Edition "
+
 // TODO: Изменить функцию получения версии.
 const char *GetAegisubLongVersionString() {
-	return BUILD_GIT_VERSION_STRING BUILD_CREDIT_SUFFIX DEBUG_SUFFIX;
+	return CIRNO_BAKA_EDITION BUILD_GIT_VERSION_STRING BUILD_CREDIT_SUFFIX DEBUG_SUFFIX;
 }
 
 const char *GetAegisubShortVersionString() {
