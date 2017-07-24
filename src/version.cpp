@@ -47,6 +47,7 @@
 	#define BUILD_CREDIT_SUFFIX ""
 #endif
 
+// TODO: Изменить функцию получения версии.
 const char *GetAegisubLongVersionString() {
 	return BUILD_GIT_VERSION_STRING BUILD_CREDIT_SUFFIX DEBUG_SUFFIX;
 }

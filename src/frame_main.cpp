@@ -248,6 +248,7 @@ void FrameMain::SetDisplayMode(int video, int audio) {
 	if (didFreeze) Thaw();
 }
 
+// TODO: Изменить функцию обновления заголовка окна
 void FrameMain::UpdateTitle() {
 	wxString newTitle;
 	if (context->subsController->IsModified()) newTitle << "* ";
